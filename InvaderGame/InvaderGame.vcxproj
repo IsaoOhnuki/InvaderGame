@@ -121,15 +121,45 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chapter\areaChapter\areaChapter.cpp" />
+    <ClCompile Include="chapter\chapter.cpp" />
+    <ClCompile Include="chapter\chapterManager.cpp" />
+    <ClCompile Include="gameObject\gameManager.cpp" />
+    <ClCompile Include="gameObject\gameObject.cpp" />
+    <ClCompile Include="gameObject\gameObjectFactory.cpp" />
+    <ClCompile Include="gameObject\gameObjectManger.cpp" />
+    <ClCompile Include="gameObject\gameObject\allyObject.cpp" />
+    <ClCompile Include="gameObject\gameObject\enamyObject.cpp" />
+    <ClCompile Include="gameObject\gameObject\objectParam\objectParam.cpp" />
+    <ClCompile Include="gameObject\gameObject\objectParam\position.cpp" />
+    <ClCompile Include="gameObject\gameObject\scene\animation.cpp" />
+    <ClCompile Include="gameObject\gameObject\scene\scene.cpp" />
+    <ClCompile Include="gameObject\gameObject\stillObject.cpp" />
     <ClCompile Include="invadergame.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="timeScheduler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="timeScheduler.h" />
     <QtMoc Include="invadergame.h" />
+    <ClInclude Include="chapter\areaChapter\areaChapter.h" />
+    <ClInclude Include="chapter\chapter.h" />
+    <ClInclude Include="chapter\chapterManager.h" />
+    <ClInclude Include="gameObject\gameManager.h" />
+    <ClInclude Include="gameObject\gameObject.h" />
+    <ClInclude Include="gameObject\gameObjectFactory.h" />
+    <ClInclude Include="gameObject\gameObjectManger.h" />
+    <ClInclude Include="gameObject\gameObject\allyObject.h" />
+    <ClInclude Include="gameObject\gameObject\enamyObject.h" />
+    <ClInclude Include="gameObject\gameObject\objectParam\objectParam.h" />
+    <ClInclude Include="gameObject\gameObject\objectParam\position.h" />
+    <ClInclude Include="gameObject\gameObject\scene\animation.h" />
+    <ClInclude Include="gameObject\gameObject\scene\scene.h" />
+    <ClInclude Include="gameObject\gameObject\stillObject.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

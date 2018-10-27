@@ -28,27 +28,133 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="gameObject">
+      <UniqueIdentifier>{c0583941-f6e6-4654-b4d9-c15b7235744c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter">
+      <UniqueIdentifier>{8ba5b548-8bc5-4811-b365-4816f265393a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="invaderGame">
+      <UniqueIdentifier>{8d50bc5e-3e9e-49af-b621-e1b66268bab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameObject\gameObject">
+      <UniqueIdentifier>{5531296d-c35b-4527-b2ae-973d27dd15dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameObject\gameObject\objectParam">
+      <UniqueIdentifier>{11217120-fac6-4d0f-b7c4-0e58cc6071ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameObject\gameObject\scene">
+      <UniqueIdentifier>{39ae3e97-1d1c-4347-99ec-97a3c0a8effc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter\areaChapter">
+      <UniqueIdentifier>{ba807a04-667a-4618-9910-49308d1a5581}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="invadergame.cpp">
+      <Filter>invaderGame</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>invaderGame</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>invaderGame</Filter>
     </ClCompile>
-    <ClCompile Include="invadergame.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="chapter\chapter.cpp">
+      <Filter>chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter\chapterManager.cpp">
+      <Filter>chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameManager.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObjectManger.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObjectFactory.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\scene\animation.cpp">
+      <Filter>gameObject\gameObject\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\scene\scene.cpp">
+      <Filter>gameObject\gameObject\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\objectParam\objectParam.cpp">
+      <Filter>gameObject\gameObject\objectParam</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\objectParam\position.cpp">
+      <Filter>gameObject\gameObject\objectParam</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\allyObject.cpp">
+      <Filter>gameObject\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\enamyObject.cpp">
+      <Filter>gameObject\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\gameObject\stillObject.cpp">
+      <Filter>gameObject\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter\areaChapter\areaChapter.cpp">
+      <Filter>chapter\areaChapter</Filter>
+    </ClCompile>
+    <ClCompile Include="timeScheduler.cpp">
+      <Filter>invaderGame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
+      <Filter>invaderGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="invadergame.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
+    <ClInclude Include="chapter\chapter.h">
+      <Filter>chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter\chapterManager.h">
+      <Filter>chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameManager.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObjectManger.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObjectFactory.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\scene\animation.h">
+      <Filter>gameObject\gameObject\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\scene\scene.h">
+      <Filter>gameObject\gameObject\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\objectParam\objectParam.h">
+      <Filter>gameObject\gameObject\objectParam</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\objectParam\position.h">
+      <Filter>gameObject\gameObject\objectParam</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\allyObject.h">
+      <Filter>gameObject\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\enamyObject.h">
+      <Filter>gameObject\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\gameObject\stillObject.h">
+      <Filter>gameObject\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter\areaChapter\areaChapter.h">
+      <Filter>chapter\areaChapter</Filter>
+    </ClInclude>
+    <ClInclude Include="timeScheduler.h">
+      <Filter>invaderGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="invadergame.ui">
@@ -59,5 +165,10 @@
     <QtRcc Include="invadergame.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="invadergame.h">
+      <Filter>invaderGame</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
