@@ -5,4 +5,3 @@ public:
 	GameObject();
 	virtual ~GameObject();
 };
-

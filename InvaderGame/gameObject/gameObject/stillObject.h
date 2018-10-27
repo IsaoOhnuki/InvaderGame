@@ -1,8 +1,9 @@
+#include "../gameObject.h"
+
 #pragma once
-class StillObject
+class StillObject : public GameObject
 {
 public:
 	StillObject();
 	virtual ~StillObject();
 };
-
