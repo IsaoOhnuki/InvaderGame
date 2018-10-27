@@ -11,3 +11,9 @@ GameObject::GameObject(int posX, int posY)
 GameObject::~GameObject()
 {
 }
+
+//---------------------------------------------------------
+bool GameObject::move(ULONG64 passageTimeMsec, int szX, int szY)
+{
+	return true;
+}

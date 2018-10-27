@@ -11,3 +11,9 @@ EnamyObject::EnamyObject(int posX, int posY)
 EnamyObject::~EnamyObject()
 {
 }
+
+//---------------------------------------------------------
+bool EnamyObject::move(ULONG64 passageTimeMsec, int szX, int szY)
+{
+	return true;
+}
