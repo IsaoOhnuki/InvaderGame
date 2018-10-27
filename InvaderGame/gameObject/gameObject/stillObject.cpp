@@ -13,7 +13,7 @@ StillObject::~StillObject()
 }
 
 //---------------------------------------------------------
-bool StillObject::move(ULONG64 passageTimeMsec, int szX, int szY)
+bool StillObject::move(ULONG64 progressTimeMsec, int szX, int szY)
 {
 	return true;
 }

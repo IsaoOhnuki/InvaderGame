@@ -13,7 +13,7 @@ AllyObject::~AllyObject()
 }
 
 //---------------------------------------------------------
-bool AllyObject::move(ULONG64 passageTimeMsec, int szX, int szY)
+bool AllyObject::move(ULONG64 progressTimeMsec, int szX, int szY)
 {
 	return true;
 }

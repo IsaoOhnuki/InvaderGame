@@ -13,7 +13,7 @@ EnamyObject::~EnamyObject()
 }
 
 //---------------------------------------------------------
-bool EnamyObject::move(ULONG64 passageTimeMsec, int szX, int szY)
+bool EnamyObject::move(ULONG64 progressTimeMsec, int szX, int szY)
 {
 	return true;
 }
