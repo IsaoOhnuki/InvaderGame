@@ -2,8 +2,8 @@
 #include "stillObject.h"
 
 //---------------------------------------------------------
-StillObject::StillObject()
-	: GameObject()
+StillObject::StillObject(int posX, int posY)
+	: GameObject(posX, posY)
 {
 }
 

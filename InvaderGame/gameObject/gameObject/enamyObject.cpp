@@ -2,8 +2,8 @@
 #include "enamyObject.h"
 
 //---------------------------------------------------------
-EnamyObject::EnamyObject()
-	: GameObject()
+EnamyObject::EnamyObject(int posX, int posY)
+	: GameObject(posX, posY)
 {
 }
 

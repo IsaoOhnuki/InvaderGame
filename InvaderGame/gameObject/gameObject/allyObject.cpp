@@ -2,8 +2,8 @@
 #include "allyObject.h"
 
 //---------------------------------------------------------
-AllyObject::AllyObject()
-	: GameObject()
+AllyObject::AllyObject(int posX, int posY)
+	: GameObject(posX, posY)
 {
 }
 

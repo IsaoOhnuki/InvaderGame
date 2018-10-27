@@ -16,9 +16,9 @@ GameObjectManger::~GameObjectManger()
 }
 
 //---------------------------------------------------------
-void GameObjectManger::addObject(GameObjectID gameObjectID)
+void GameObjectManger::addObject(GameObjectID gameObjectID, int posX, int posY)
 {
-	GameObject* object = GameObjectFactory::create(gameObjectID);
+	GameObject* object = GameObjectFactory::create(gameObjectID, posX, posY);
 
 	if (nullptr != object) {
 		objects.push_back(object);

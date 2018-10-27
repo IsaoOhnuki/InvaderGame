@@ -17,7 +17,7 @@ public:
 	GameObjectManger();
 	virtual ~GameObjectManger();
 
-	void addObject(GameObjectID gameObjectID);
+	void addObject(GameObjectID gameObjectID, int posX, int posY);
 	std::vector<GameObject*> getObjects(GameObjectType gameObjectType);
 
 private:

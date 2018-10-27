@@ -2,7 +2,10 @@
 #include "position.h"
 
 //---------------------------------------------------------
-Position::Position()
+Position::Position(int posX, int posY)
+	: timeMsec(0)
+	, posX(posX)
+	, posY(posY)
 {
 }
 

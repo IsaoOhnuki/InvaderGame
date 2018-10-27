@@ -2,7 +2,8 @@
 #include "objectParam.h"
 
 //---------------------------------------------------------
-ObjectParam::ObjectParam()
+ObjectParam::ObjectParam(int posX, int posY)
+	: position(posX, posY)
 {
 }
 

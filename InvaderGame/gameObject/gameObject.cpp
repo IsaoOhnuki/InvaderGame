@@ -2,7 +2,8 @@
 #include "gameObject.h"
 
 //---------------------------------------------------------
-GameObject::GameObject()
+GameObject::GameObject(int posX, int posY)
+	: objectParam(posX, posY)
 {
 }
 

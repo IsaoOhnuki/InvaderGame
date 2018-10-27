@@ -14,5 +14,5 @@ class GameObjectFactory
 public:
 	GameObjectFactory();
 	virtual ~GameObjectFactory();
-	static GameObject* create(GameObjectID gameObjectID);
+	static GameObject* create(GameObjectID gameObjectID, int posX, int posY);
 };

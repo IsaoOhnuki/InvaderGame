@@ -4,6 +4,6 @@
 class EnamyObject : public GameObject
 {
 public:
-	EnamyObject();
+	EnamyObject(int posX, int posY);
 	virtual ~EnamyObject();
 };

@@ -4,6 +4,6 @@
 class AllyObject : public GameObject
 {
 public:
-	AllyObject();
+	AllyObject(int posX, int posY);
 	virtual ~AllyObject();
 };

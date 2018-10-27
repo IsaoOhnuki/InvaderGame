@@ -4,6 +4,6 @@
 class StillObject : public GameObject
 {
 public:
-	StillObject();
+	StillObject(int posX, int posY);
 	virtual ~StillObject();
 };

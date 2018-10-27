@@ -2,7 +2,11 @@
 class Position
 {
 public:
-	Position();
+	Position(int posX, int posY);
 	virtual ~Position();
-};
 
+private:
+	ULONG64 timeMsec;
+	int posX;
+	int posY;
+};
